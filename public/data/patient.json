@@ -1,0 +1,1006 @@
+{
+  "patients": [
+    {
+      "patientFirstName": "Aaron",
+      "patientLastName": "Leslie",
+      "patientGender": "Male",
+      "patientBirthday": "1984.01.23",
+      "upperExtremityFunctionLt": "N",
+      "upperExtremityFunctionRt": "Y",
+      "dateOfOnsetMonth": "2016.03",
+      "diagnosis": "",
+      "playTimeList": [
+        {
+          "datetime": 61436070000000,
+          "playTime": 48.9389
+        },
+        {
+          "datetime": 61436136400000,
+          "playTime": 42.3809
+        },
+        {
+          "datetime": 61436242800000,
+          "playTime": 33.9329
+        },
+        {
+          "datetime": 61436329200000,
+          "playTime": 34.9334
+        },
+        {
+          "datetime": 61436413600000,
+          "playTime": 43.2342
+        },
+        {
+          "datetime": 61436302000000,
+          "playTime": 36.4367
+        },
+        {
+          "datetime": 61436388400000,
+          "playTime": 86.3863
+        },
+        {
+          "datetime": 61436674800000,
+          "playTime": 46.3833
+        },
+        {
+          "datetime": 61436761200000,
+          "playTime": 43.3687
+        }
+      ],
+      "contentHistories": [
+        {
+          "sessionTitle": "SESSION_01",
+          "missionTitle": "MISSION_01",
+          "contentName": "CONTENT_01",
+          "playTime": 32.1231,
+          "level": 3,
+          "datetime": 61433990800000
+        },
+        {
+          "sessionTitle": "SESSION_01",
+          "missionTitle": "MISSION_02",
+          "contentName": "CONTENT_02",
+          "playTime": 12.1431,
+          "level": 2,
+          "datetime": 61436106000000
+        },
+        {
+          "sessionTitle": "SESSION_01",
+          "missionTitle": "MISSION_03",
+          "contentName": "CONTENT_03",
+          "playTime": 42.1133,
+          "level": 1,
+          "datetime": 61436113200000
+        },
+        {
+          "sessionTitle": "SESSION_01",
+          "missionTitle": "MISSION_04",
+          "contentName": "CONTENT_04",
+          "playTime": 34.1137,
+          "level": 3,
+          "datetime": 61436131200000
+        },
+        {
+          "sessionTitle": "SESSION_01",
+          "missionTitle": "MISSION_03",
+          "contentName": "CONTENT_03",
+          "playTime": 13.1233,
+          "level": 1,
+          "datetime": 61436127600000
+        },
+        {
+          "sessionTitle": "SESSION_01",
+          "missionTitle": "MISSION_06",
+          "contentName": "CONTENT_06",
+          "playTime": 13.9369,
+          "level": 3,
+          "datetime": 61436233600000
+        },
+        {
+          "sessionTitle": "SESSION_01",
+          "missionTitle": "MISSION_07",
+          "contentName": "CONTENT_07",
+          "playTime": 19.3678,
+          "level": 3,
+          "datetime": 61436246400000
+        },
+        {
+          "sessionTitle": "SESSION_01",
+          "missionTitle": "MISSION_08",
+          "contentName": "CONTENT_08",
+          "playTime": 22.4367,
+          "level": 2,
+          "datetime": 61436233600000
+        },
+        {
+          "sessionTitle": "SESSION_02",
+          "missionTitle": "MISSION_01",
+          "contentName": "CONTENT_09",
+          "playTime": 32.4367,
+          "level": 2,
+          "datetime": 61436361600000
+        },
+        {
+          "sessionTitle": "SESSION_02",
+          "missionTitle": "MISSION_02",
+          "contentName": "CONTENT_10",
+          "playTime": 43.7436,
+          "level": 3,
+          "datetime": 61436376000000
+        },
+        {
+          "sessionTitle": "SESSION_02",
+          "missionTitle": "MISSION_03",
+          "contentName": "CONTENT_11",
+          "playTime": 76.4367,
+          "level": 2,
+          "datetime": 61436379600000
+        },
+        {
+          "sessionTitle": "SESSION_02",
+          "missionTitle": "MISSION_04",
+          "contentName": "CONTENT_12",
+          "playTime": 34.3936,
+          "level": 1,
+          "datetime": 61436498400000
+        },
+        {
+          "sessionTitle": "SESSION_02",
+          "missionTitle": "MISSION_03",
+          "contentName": "CONTENT_13",
+          "playTime": 43.1467,
+          "level": 3,
+          "datetime": 61436606400000
+        },
+        {
+          "sessionTitle": "SESSION_02",
+          "missionTitle": "MISSION_06",
+          "contentName": "CONTENT_14",
+          "playTime": 13.3436,
+          "level": 3,
+          "datetime": 61436718000000
+        },
+        {
+          "sessionTitle": "SESSION_02",
+          "missionTitle": "MISSION_07",
+          "contentName": "CONTENT_13",
+          "playTime": 34.4367,
+          "level": 2,
+          "datetime": 61436732400000
+        },
+        {
+          "sessionTitle": "SESSION_02",
+          "missionTitle": "MISSION_08",
+          "contentName": "CONTENT_16",
+          "playTime": 34.3436,
+          "level": 1,
+          "datetime": 61436730400000
+        },
+        {
+          "sessionTitle": "SESSION_03",
+          "missionTitle": "MISSION_01",
+          "contentName": "CONTENT_17",
+          "playTime": 73.3343,
+          "level": 3,
+          "datetime": 61436847600000
+        },
+        {
+          "sessionTitle": "SESSION_03",
+          "missionTitle": "MISSION_02",
+          "contentName": "CONTENT_18",
+          "playTime": 34.4836,
+          "level": 3,
+          "datetime": 61436973600000
+        },
+        {
+          "sessionTitle": "SESSION_03",
+          "missionTitle": "MISSION_03",
+          "contentName": "CONTENT_19",
+          "playTime": 34.2824,
+          "level": 1,
+          "datetime": 61436984400000
+        },
+        {
+          "sessionTitle": "SESSION_03",
+          "missionTitle": "MISSION_04",
+          "contentName": "CONTENT_20",
+          "playTime": 31.2843,
+          "level": 2,
+          "datetime": 61437088800000
+        },
+        {
+          "sessionTitle": "SESSION_03",
+          "missionTitle": "MISSION_03",
+          "contentName": "CONTENT_21",
+          "playTime": 14.2844,
+          "level": 3,
+          "datetime": 61437106800000
+        },
+        {
+          "sessionTitle": "SESSION_03",
+          "missionTitle": "MISSION_06",
+          "contentName": "CONTENT_22",
+          "playTime": 12.3473,
+          "level": 3,
+          "datetime": 61437117600000
+        }
+      ],
+      "motionTypes": [
+        {
+          "name": "Forearm pronation/supination",
+          "value": 1429
+        },
+        {
+          "name": "Wrist flexion/extension Eliminated gravity",
+          "value": 2837
+        },
+        {
+          "name": "Wrist radial/ulnar deviation",
+          "value": 4289
+        },
+        {
+          "name": "Finger flexion/extension",
+          "value": 2837
+        },
+        {
+          "name": "Wrist flexion/extension",
+          "value": 1429
+        }
+      ],
+      "missionTypes": [
+        {
+          "name": "ROM",
+          "value": 3333
+        },
+        {
+          "name": "Endurance",
+          "value": 1997
+        },
+        {
+          "name": "Agility & Coordination",
+          "value": 30021
+        }
+      ],
+      "evaluations": [
+        {
+          "name": "1st, 03.04",
+          "value": [
+            {
+              "max": 180,
+              "text": "Forearm\n pronation/supination",
+              "value": 39.17
+            },
+            {
+              "max": 160,
+              "text": "Wrist\n flexion/extension",
+              "value": 93.29
+            },
+            {
+              "max": 160,
+              "text": "Wrist\n flexion/extension\n Eliminated gravity",
+              "value": 97.3
+            },
+            {
+              "max": 80,
+              "text": "Wrist\n radial/ulnar deviation",
+              "value": 24.97
+            },
+            {
+              "max": 80,
+              "text": "Wrist\n radial/ulnar deviation\n Eliminated gravity",
+              "value": 34.34
+            },
+            {
+              "max": 100,
+              "text": "Finger\n flexion/extension",
+              "value": 104.10
+            }
+          ]
+        },
+        {
+          "name": "1st, 04.04",
+          "value": [
+            {
+              "max": 180,
+              "text": "Forearm\n pronation/supination",
+              "value": 49.17
+            },
+            {
+              "max": 160,
+              "text": "Wrist\n flexion/extension",
+              "value": 103.29
+            },
+            {
+              "max": 160,
+              "text": "Wrist\n flexion/extension\n Eliminated gravity",
+              "value": 107.3
+            },
+            {
+              "max": 80,
+              "text": "Wrist\n radial/ulnar deviation",
+              "value": 64.97
+            },
+            {
+              "max": 80,
+              "text": "Wrist\n radial/ulnar deviation\n Eliminated gravity",
+              "value": 44.34
+            },
+            {
+              "max": 100,
+              "text": "Finger\n flexion/extension",
+              "value": 93.10
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "patientFirstName": "Issabel",
+      "patientLastName": "Kenneth",
+      "patientGender": "FeMale",
+      "patientBirthday": "1982.10.24",
+      "upperExtremityFunctionLt": "N",
+      "upperExtremityFunctionRt": "Y",
+      "dateOfOnsetMonth": "2016.03",
+      "diagnosis": "",
+      "playTimeList": [
+        {
+          "datetime": 61436070000000,
+          "playTime": 45.9389
+        },
+        {
+          "datetime": 61436136400000,
+          "playTime": 32.3809
+        },
+        {
+          "datetime": 61436242800000,
+          "playTime": 53.9329
+        },
+        {
+          "datetime": 61436329200000,
+          "playTime": 44.9334
+        },
+        {
+          "datetime": 61436413600000,
+          "playTime": 53.2342
+        },
+        {
+          "datetime": 61436302000000,
+          "playTime": 13.4367
+        },
+        {
+          "datetime": 61436388400000,
+          "playTime": 82.3863
+        },
+        {
+          "datetime": 61436674800000,
+          "playTime": 36.3833
+        },
+        {
+          "datetime": 61436761200000,
+          "playTime": 42.3687
+        }
+      ],
+      "contentHistories": [
+        {
+          "sessionTitle": "SESSION_01",
+          "missionTitle": "MISSION_01",
+          "contentName": "CONTENT_01",
+          "playTime": 32.4234,
+          "level": 3,
+          "datetime": 64433990800000
+        },
+        {
+          "sessionTitle": "SESSION_01",
+          "missionTitle": "MISSION_02",
+          "contentName": "CONTENT_02",
+          "playTime": 42.4434,
+          "level": 2,
+          "datetime": 64436406000000
+        },
+        {
+          "sessionTitle": "SESSION_01",
+          "missionTitle": "MISSION_03",
+          "contentName": "CONTENT_03",
+          "playTime": 42.4433,
+          "level": 1,
+          "datetime": 64436443200000
+        },
+        {
+          "sessionTitle": "SESSION_01",
+          "missionTitle": "MISSION_04",
+          "contentName": "CONTENT_04",
+          "playTime": 34.4437,
+          "level": 3,
+          "datetime": 64436434200000
+        },
+        {
+          "sessionTitle": "SESSION_01",
+          "missionTitle": "MISSION_05",
+          "contentName": "CONTENT_05",
+          "playTime": 43.4233,
+          "level": 1,
+          "datetime": 64436427600000
+        },
+        {
+          "sessionTitle": "SESSION_01",
+          "missionTitle": "MISSION_06",
+          "contentName": "CONTENT_06",
+          "playTime": 43.9369,
+          "level": 3,
+          "datetime": 64436233600000
+        },
+        {
+          "sessionTitle": "SESSION_01",
+          "missionTitle": "MISSION_07",
+          "contentName": "CONTENT_07",
+          "playTime": 49.3678,
+          "level": 3,
+          "datetime": 64436246400000
+        },
+        {
+          "sessionTitle": "SESSION_01",
+          "missionTitle": "MISSION_08",
+          "contentName": "CONTENT_08",
+          "playTime": 22.4367,
+          "level": 2,
+          "datetime": 64436233600000
+        },
+        {
+          "sessionTitle": "SESSION_02",
+          "missionTitle": "MISSION_01",
+          "contentName": "CONTENT_09",
+          "playTime": 32.4367,
+          "level": 2,
+          "datetime": 64436364600000
+        },
+        {
+          "sessionTitle": "SESSION_02",
+          "missionTitle": "MISSION_02",
+          "contentName": "CONTENT_10",
+          "playTime": 43.7436,
+          "level": 3,
+          "datetime": 64436376000000
+        },
+        {
+          "sessionTitle": "SESSION_02",
+          "missionTitle": "MISSION_03",
+          "contentName": "CONTENT_11",
+          "playTime": 76.4367,
+          "level": 2,
+          "datetime": 64436379600000
+        },
+        {
+          "sessionTitle": "SESSION_02",
+          "missionTitle": "MISSION_04",
+          "contentName": "CONTENT_12",
+          "playTime": 34.3936,
+          "level": 1,
+          "datetime": 64436498400000
+        },
+        {
+          "sessionTitle": "SESSION_02",
+          "missionTitle": "MISSION_05",
+          "contentName": "CONTENT_13",
+          "playTime": 43.4467,
+          "level": 3,
+          "datetime": 64436606400000
+        },
+        {
+          "sessionTitle": "SESSION_02",
+          "missionTitle": "MISSION_06",
+          "contentName": "CONTENT_14",
+          "playTime": 43.3436,
+          "level": 3,
+          "datetime": 64436748000000
+        },
+        {
+          "sessionTitle": "SESSION_02",
+          "missionTitle": "MISSION_07",
+          "contentName": "CONTENT_15",
+          "playTime": 34.4367,
+          "level": 2,
+          "datetime": 64436732400000
+        },
+        {
+          "sessionTitle": "SESSION_02",
+          "missionTitle": "MISSION_08",
+          "contentName": "CONTENT_16",
+          "playTime": 34.3436,
+          "level": 1,
+          "datetime": 64436730400000
+        },
+        {
+          "sessionTitle": "SESSION_03",
+          "missionTitle": "MISSION_01",
+          "contentName": "CONTENT_17",
+          "playTime": 73.3343,
+          "level": 3,
+          "datetime": 64436847600000
+        },
+        {
+          "sessionTitle": "SESSION_03",
+          "missionTitle": "MISSION_02",
+          "contentName": "CONTENT_18",
+          "playTime": 34.4836,
+          "level": 3,
+          "datetime": 64436973600000
+        },
+        {
+          "sessionTitle": "SESSION_03",
+          "missionTitle": "MISSION_03",
+          "contentName": "CONTENT_19",
+          "playTime": 34.2824,
+          "level": 1,
+          "datetime": 64436984400000
+        },
+        {
+          "sessionTitle": "SESSION_03",
+          "missionTitle": "MISSION_04",
+          "contentName": "CONTENT_20",
+          "playTime": 34.2843,
+          "level": 2,
+          "datetime": 64437088800000
+        },
+        {
+          "sessionTitle": "SESSION_03",
+          "missionTitle": "MISSION_05",
+          "contentName": "CONTENT_21",
+          "playTime": 44.2844,
+          "level": 3,
+          "datetime": 64437406800000
+        },
+        {
+          "sessionTitle": "SESSION_03",
+          "missionTitle": "MISSION_06",
+          "contentName": "CONTENT_22",
+          "playTime": 42.3473,
+          "level": 3,
+          "datetime": 64437447600000
+        }
+      ],
+      "motionTypes": [
+        {
+          "name": "Forearm pronation/supination",
+          "value": 1429
+        },
+        {
+          "name": "Wrist flexion/extension Eliminated gravity",
+          "value": 2837
+        },
+        {
+          "name": "Wrist radial/ulnar deviation",
+          "value": 4286
+        },
+        {
+          "name": "Finger flexion/extension",
+          "value": 2837
+        },
+        {
+          "name": "Wrist flexion/extension",
+          "value": 1429
+        }
+      ],
+      "missionTypes": [
+        {
+          "name": "ROM",
+          "value": 3333
+        },
+        {
+          "name": "Endurance",
+          "value": 1667
+        },
+        {
+          "name": "Agility & Coordination",
+          "value": 1230
+        }
+      ],
+      "evaluations": [
+        {
+          "name": "1st, 03.04",
+          "value": [
+            {
+              "max": 180,
+              "text": "Forearm\n pronation/supination",
+              "value": 37.13
+            },
+            {
+              "max": 160,
+              "text": "Wrist\n flexion/extension",
+              "value": 73.27
+            },
+            {
+              "max": 160,
+              "text": "Wrist\n flexion/extension\n Eliminated gravity",
+              "value": 73.3
+            },
+            {
+              "max": 80,
+              "text": "Wrist\n radial/ulnar deviation",
+              "value": 24.73
+            },
+            {
+              "max": 80,
+              "text": "Wrist\n radial/ulnar deviation\n Eliminated gravity",
+              "value": 34.34
+            },
+            {
+              "max": 100,
+              "text": "Finger\n flexion/extension",
+              "value": 104.10
+            }
+          ]
+        },
+        {
+          "name": "1st, 04.04",
+          "value": [
+            {
+              "max": 180,
+              "text": "Forearm\n pronation/supination",
+              "value": 47.13
+            },
+            {
+              "max": 160,
+              "text": "Wrist\n flexion/extension",
+              "value": 103.27
+            },
+            {
+              "max": 160,
+              "text": "Wrist\n flexion/extension\n Eliminated gravity",
+              "value": 103.3
+            },
+            {
+              "max": 80,
+              "text": "Wrist\n radial/ulnar deviation",
+              "value": 64.73
+            },
+            {
+              "max": 80,
+              "text": "Wrist\n radial/ulnar deviation\n Eliminated gravity",
+              "value": 44.34
+            },
+            {
+              "max": 100,
+              "text": "Finger\n flexion/extension",
+              "value": 73.10
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "patientFirstName": "Winifred",
+      "patientLastName": "Richard",
+      "patientGender": "FeMale",
+      "patientBirthday": "1982.10.24",
+      "upperExtremityFunctionLt": "N",
+      "upperExtremityFunctionRt": "Y",
+      "dateOfOnsetMonth": "2016.03",
+      "diagnosis": "",
+      "playTimeList": [
+        {
+          "datetime": 61436070000000,
+          "playTime": 45.9389
+        },
+        {
+          "datetime": 61436136400000,
+          "playTime": 32.3809
+        },
+        {
+          "datetime": 61436242800000,
+          "playTime": 53.9329
+        },
+        {
+          "datetime": 61436329200000,
+          "playTime": 44.9334
+        },
+        {
+          "datetime": 61436413600000,
+          "playTime": 53.2342
+        },
+        {
+          "datetime": 61436302000000,
+          "playTime": 13.4367
+        },
+        {
+          "datetime": 61436388400000,
+          "playTime": 82.3863
+        },
+        {
+          "datetime": 61436674800000,
+          "playTime": 36.3833
+        },
+        {
+          "datetime": 61436761200000,
+          "playTime": 42.3687
+        }
+      ],
+      "contentHistories": [
+        {
+          "sessionTitle": "SESSION_01",
+          "missionTitle": "MISSION_01",
+          "contentName": "CONTENT_01",
+          "playTime": 22.3234,
+          "level": 3,
+          "datetime": 64433990800000
+        },
+        {
+          "sessionTitle": "SESSION_01",
+          "missionTitle": "MISSION_02",
+          "contentName": "CONTENT_02",
+          "playTime": 32.3434,
+          "level": 2,
+          "datetime": 64436406000000
+        },
+        {
+          "sessionTitle": "SESSION_01",
+          "missionTitle": "MISSION_03",
+          "contentName": "CONTENT_03",
+          "playTime": 42.4533,
+          "level": 1,
+          "datetime": 64436443200000
+        },
+        {
+          "sessionTitle": "SESSION_01",
+          "missionTitle": "MISSION_04",
+          "contentName": "CONTENT_04",
+          "playTime": 54.4437,
+          "level": 3,
+          "datetime": 64436434200000
+        },
+        {
+          "sessionTitle": "SESSION_01",
+          "missionTitle": "MISSION_05",
+          "contentName": "CONTENT_05",
+          "playTime": 43.4233,
+          "level": 1,
+          "datetime": 64436427600000
+        },
+        {
+          "sessionTitle": "SESSION_01",
+          "missionTitle": "MISSION_06",
+          "contentName": "CONTENT_06",
+          "playTime": 34.9369,
+          "level": 3,
+          "datetime": 64436233600000
+        },
+        {
+          "sessionTitle": "SESSION_01",
+          "missionTitle": "MISSION_07",
+          "contentName": "CONTENT_07",
+          "playTime": 43.3678,
+          "level": 3,
+          "datetime": 64436246400000
+        },
+        {
+          "sessionTitle": "SESSION_01",
+          "missionTitle": "MISSION_08",
+          "contentName": "CONTENT_08",
+          "playTime": 22.4367,
+          "level": 2,
+          "datetime": 64436233600000
+        },
+        {
+          "sessionTitle": "SESSION_02",
+          "missionTitle": "MISSION_01",
+          "contentName": "CONTENT_09",
+          "playTime": 32.4367,
+          "level": 2,
+          "datetime": 64436364600000
+        },
+        {
+          "sessionTitle": "SESSION_02",
+          "missionTitle": "MISSION_02",
+          "contentName": "CONTENT_10",
+          "playTime": 43.7436,
+          "level": 3,
+          "datetime": 64436376000000
+        },
+        {
+          "sessionTitle": "SESSION_02",
+          "missionTitle": "MISSION_03",
+          "contentName": "CONTENT_11",
+          "playTime": 76.4367,
+          "level": 2,
+          "datetime": 64436379600000
+        },
+        {
+          "sessionTitle": "SESSION_02",
+          "missionTitle": "MISSION_04",
+          "contentName": "CONTENT_12",
+          "playTime": 34.3936,
+          "level": 1,
+          "datetime": 64436498400000
+        },
+        {
+          "sessionTitle": "SESSION_02",
+          "missionTitle": "MISSION_05",
+          "contentName": "CONTENT_13",
+          "playTime": 43.4467,
+          "level": 3,
+          "datetime": 64436606400000
+        },
+        {
+          "sessionTitle": "SESSION_02",
+          "missionTitle": "MISSION_06",
+          "contentName": "CONTENT_14",
+          "playTime": 43.3436,
+          "level": 3,
+          "datetime": 64436748000000
+        },
+        {
+          "sessionTitle": "SESSION_02",
+          "missionTitle": "MISSION_07",
+          "contentName": "CONTENT_15",
+          "playTime": 34.4367,
+          "level": 2,
+          "datetime": 64436732400000
+        },
+        {
+          "sessionTitle": "SESSION_02",
+          "missionTitle": "MISSION_08",
+          "contentName": "CONTENT_16",
+          "playTime": 34.3436,
+          "level": 1,
+          "datetime": 64436730400000
+        },
+        {
+          "sessionTitle": "SESSION_03",
+          "missionTitle": "MISSION_01",
+          "contentName": "CONTENT_17",
+          "playTime": 73.3343,
+          "level": 3,
+          "datetime": 64436847600000
+        },
+        {
+          "sessionTitle": "SESSION_03",
+          "missionTitle": "MISSION_02",
+          "contentName": "CONTENT_18",
+          "playTime": 34.4836,
+          "level": 3,
+          "datetime": 64436973600000
+        },
+        {
+          "sessionTitle": "SESSION_03",
+          "missionTitle": "MISSION_03",
+          "contentName": "CONTENT_19",
+          "playTime": 34.2824,
+          "level": 1,
+          "datetime": 64436984400000
+        },
+        {
+          "sessionTitle": "SESSION_03",
+          "missionTitle": "MISSION_04",
+          "contentName": "CONTENT_20",
+          "playTime": 34.2843,
+          "level": 2,
+          "datetime": 64437088800000
+        },
+        {
+          "sessionTitle": "SESSION_03",
+          "missionTitle": "MISSION_05",
+          "contentName": "CONTENT_21",
+          "playTime": 44.2844,
+          "level": 3,
+          "datetime": 64437406800000
+        },
+        {
+          "sessionTitle": "SESSION_03",
+          "missionTitle": "MISSION_06",
+          "contentName": "CONTENT_22",
+          "playTime": 42.3473,
+          "level": 3,
+          "datetime": 64437447600000
+        }
+      ],
+      "motionTypes": [
+        {
+          "name": "Forearm pronation/supination",
+          "value": 1429
+        },
+        {
+          "name": "Wrist flexion/extension Eliminated gravity",
+          "value": 2837
+        },
+        {
+          "name": "Wrist radial/ulnar deviation",
+          "value": 4286
+        },
+        {
+          "name": "Finger flexion/extension",
+          "value": 2837
+        },
+        {
+          "name": "Wrist flexion/extension",
+          "value": 1429
+        }
+      ],
+      "missionTypes": [
+        {
+          "name": "ROM",
+          "value": 33123
+        },
+        {
+          "name": "Endurance",
+          "value": 11667
+        },
+        {
+          "name": "Agility & Coordination",
+          "value": 12210
+        }
+      ],
+      "evaluations": [
+        {
+          "name": "1st, 06.04",
+          "value": [
+            {
+              "max": 180,
+              "text": "Forearm\n pronation/supination",
+              "value": 64.16
+            },
+            {
+              "max": 160,
+              "text": "Wrist\n flexion/extension",
+              "value": 46.24
+            },
+            {
+              "max": 160,
+              "text": "Wrist\n flexion/extension\n Eliminated gravity",
+              "value": 46.6
+            },
+            {
+              "max": 80,
+              "text": "Wrist\n radial/ulnar deviation",
+              "value": 24.46
+            },
+            {
+              "max": 80,
+              "text": "Wrist\n radial/ulnar deviation\n Eliminated gravity",
+              "value": 64.64
+            },
+            {
+              "max": 100,
+              "text": "Finger\n flexion/extension",
+              "value": 104.10
+            }
+          ]
+        },
+        {
+          "name": "1st, 04.04",
+          "value": [
+            {
+              "max": 180,
+              "text": "Forearm\n pronation/supination",
+              "value": 44.16
+            },
+            {
+              "max": 160,
+              "text": "Wrist\n flexion/extension",
+              "value": 106.24
+            },
+            {
+              "max": 160,
+              "text": "Wrist\n flexion/extension\n Eliminated gravity",
+              "value": 106.6
+            },
+            {
+              "max": 80,
+              "text": "Wrist\n radial/ulnar deviation",
+              "value": 64.46
+            },
+            {
+              "max": 80,
+              "text": "Wrist\n radial/ulnar deviation\n Eliminated gravity",
+              "value": 44.64
+            },
+            {
+              "max": 100,
+              "text": "Finger\n flexion/extension",
+              "value": 46.10
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
