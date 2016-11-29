@@ -1,20 +1,6 @@
 import React from 'react';
 
 class HistoryData extends React.Component{
-	constructor( _props ){
-		super( _props );
-
-		/*let pateint = patientList.getPatient();
-		patient = pateint[0];
-		this.state = {
-			'sessionTitle' : patient.sessionTitle,
-			'missionTitle' : patient.missionTitle,
-			'contentName' : patient.contentName,
-			'playTime' : patient.playTime,
-			'datetime' : patient.datetime
-		}*/
-	}
-
 	drawStar(){
 		let l = this.props.history.level;
 		let star = '';
@@ -37,12 +23,12 @@ class HistoryData extends React.Component{
 								{date.toString()}
 						</div>
 						<div>
-							{this.props.history.sessionTitle}&nbsp;
+							{ this.props.history.sessionTitle }&nbsp;
 							:&nbsp;
-							{this.props.history.missionTitle}&nbsp;
+							{ this.props.history.missionTitle }&nbsp;
 							, 
-							<span className="text-info">{this.props.history.contentName}</span>.&nbsp;
-							{this.props.history.playTime}초 
+							<span className="text-info">{ this.props.history.contentName }</span>.&nbsp;
+							{ this.props.history.playTime }초 
 							&nbsp;{this.drawStar()}
 						</div>
 					</div>

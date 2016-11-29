@@ -14,21 +14,18 @@ class LeftPanel extends React.Component{
 		};
 	}
 
-	componentDidMount(){
-		console.log( 'componentDidMount' );
-	}
-
 	render(){
 		let panelStyle = {
 			backgroundColor : '#fff'
 		}
 
 		return(
-				<div className="static-modal app-aside folded md nav-expand" style={panelStyle}>
-					<Navbar>
+				<div className="static-modal app-aside modal folded md nav-expand" style={ panelStyle }>
+					<Navbar style={{ backgroundColor:'#fff' }}>
 						<Navbar.Header>
 					      <Navbar.Brand>
 					        <a href="#">
+					        	<div id="logo"></div>
 					        	<span className="hidden-folded inline">Rapael rehab</span>
 					        </a>
 					      </Navbar.Brand>
@@ -37,20 +34,20 @@ class LeftPanel extends React.Component{
 
 					<Nav stacked>
 						<NavItem href="#">
-							<span className="pull-left w-40 img-circle blue-grey-800">{this.props.lastName}</span> 
+							<span className="pull-left w-40 img-circle blue-grey-800">{ this.props.lastName }</span> 
 							<span className="clear hidden-folded p-x"> 
-							<span className="block _500">{this.props.name}</span> 
+							<span className="block _500">{ this.props.name }</span> 
 							<small className="block text-muted">
 							<i className="fa fa-circle text-success m-r-sm"></i>online</small></span>
+							<br/>
 						</NavItem>
-						<br />
-						<br />
-					    <NavItem eventKey={2} href="#">
+					    <NavItem href="#">
+					    	<br/>
 					    	<Glyphicon glyph="align-justify" />
 					    	&nbsp;
 					    	<span className="nav-text">&nbsp;환자리스트&nbsp;</span>
 					    	&nbsp;
-					    	<Label bsStyle="success">{this.state.count}</Label>
+					    	<Label bsStyle="success">{ this.state.count }</Label>
 					    </NavItem>
 					</Nav>
 					

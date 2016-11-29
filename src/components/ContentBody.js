@@ -19,50 +19,50 @@ class ContentBody extends React.Component{
 	render(){
 
 		return(	
-					<div className="app-content box-shadow-z0">
-						<HeaderNavbar name={loginUser.lastName}/>
-						<Grid fluid={true}>
-						    <Row className="show-grid">
-						      <Col sm={2}>
-						      	  	<PatientList onShowData={ this.props.refreshData } />
+				<div className="app-content box-shadow-z0">
+					<HeaderNavbar name={ loginUser.lastName }/>
+					<Grid fluid={true}>
+					    <Row className="show-grid row-col">
+					      <Col className="col-md w-lg w-auto-sm light lt b-l" style={{ backgroundColor : '#f8f8f8' }}>
+					      	  	<PatientList onShowData={ this.props.refreshData } />
+					      </Col>
+						      <Col sm={12} className="col-md">
+						      		<div className="padding">
+									    <Row className="show-grid">
+									      <Col xs={12} md={12}>
+									      	  <PatientInfo currentIndex={ this.props.index }/>
+									      </Col>
+									    </Row>
+
+									    <Row className="show-grid">
+									      <Col md={6}>
+									      	  <TrainingTime index={ this.props.index }/>
+									      </Col>
+									      <Col md={6}>
+									      	  <TrainingHistory index={ this.props.index }/>
+									      </Col>
+									    </Row>
+
+									    <Row className="show-grid">
+									      <Col xs={12} md={12}>
+									      	<TrainingActionRatio index={ this.props.index }/>
+									      </Col>
+									    </Row>
+
+									    <Row className="show-grid">
+									      <Col md={6}>
+									      	  <TrainingTypeRatio index={ this.props.index }/>
+									      </Col>
+									      <Col md={6}>
+									          <EvaluationInfo index={ this.props.index }/>
+									      </Col>
+									    </Row>
+								    </div>
 						      </Col>
-							      <Col sm={10}>
-							      		<div className="padding">
-										    <Row className="show-grid">
-										      <Col xs={12} md={12}>
-										      	  <PatientInfo currentIndex={ this.props.index }/>
-										      </Col>
-										    </Row>
-
-										    <Row className="show-grid">
-										      <Col md={6}>
-										      	  <TrainingTime />
-										      </Col>
-										      <Col md={6}>
-										      	  <TrainingHistory index={ this.props.index }/>
-										      </Col>
-										    </Row>
-
-										    <Row className="show-grid">
-										      <Col xs={12} md={12}>
-										      	<TrainingActionRatio />
-										      </Col>
-										    </Row>
-
-										    <Row className="show-grid">
-										      <Col md={6}>
-										      	  <TrainingTypeRatio />
-										      </Col>
-										      <Col md={6}>
-										          <EvaluationInfo />
-										      </Col>
-										    </Row>
-									    </div>
-							      </Col>
-						      
-						    </Row>
-						</Grid>
-					</div>
+					      
+					    </Row>
+					</Grid>
+				</div>
 			);
 	}
 }

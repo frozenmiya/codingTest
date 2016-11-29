@@ -71,9 +71,13 @@ sup {
   padding: 0.25em 0.5em;
   font-weight: bold;
   background-color: #b8b8b8; }
+.label-success{
+  background-color : #5cb85c;
+}
   .label.no-bg {
     background-color: transparent;
     color: inherit; }
+}
 
 .label.up {
   position: relative;
@@ -5539,3 +5543,17 @@ textarea.md-input {
 .fade-in-down.ng-leave {
   -webkit-animation: fadeOutDown 0.5s;
   animation: fadeOutDown 0.5s; }
+
+#logo{
+  background : url('../image/rw_icon.png');
+  position: relative;
+  width: 22px;
+  height: 22px;
+  left : 20px;
+  display : inline-block;
+  top : 3px;
+}
+
+.patient-list{
+  height : inherit;
+}

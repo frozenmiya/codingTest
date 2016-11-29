@@ -1,8 +1,8 @@
 {
   "patients": [
     {
-      "patientFirstName": "Aaron",
-      "patientLastName": "Leslie",
+      "patientFirstName": "길동",
+      "patientLastName": "홍",
       "patientGender": "Male",
       "patientBirthday": "1984.01.23",
       "upperExtremityFunctionLt": "N",
@@ -335,8 +335,8 @@
       ]
     },
     {
-      "patientFirstName": "Issabel",
-      "patientLastName": "Kenneth",
+      "patientFirstName": "영희",
+      "patientLastName": "김",
       "patientGender": "FeMale",
       "patientBirthday": "1982.10.24",
       "upperExtremityFunctionLt": "N",
@@ -346,7 +346,7 @@
       "playTimeList": [
         {
           "datetime": 61436070000000,
-          "playTime": 45.9389
+          "playTime": 5.9389
         },
         {
           "datetime": 61436136400000,
@@ -354,15 +354,15 @@
         },
         {
           "datetime": 61436242800000,
-          "playTime": 53.9329
+          "playTime": 5.9329
         },
         {
           "datetime": 61436329200000,
-          "playTime": 44.9334
+          "playTime": 14.9334
         },
         {
           "datetime": 61436413600000,
-          "playTime": 53.2342
+          "playTime": 5.2342
         },
         {
           "datetime": 61436302000000,
@@ -374,11 +374,11 @@
         },
         {
           "datetime": 61436674800000,
-          "playTime": 36.3833
+          "playTime": 16.3833
         },
         {
           "datetime": 61436761200000,
-          "playTime": 42.3687
+          "playTime": 82.3687
         }
       ],
       "contentHistories": [
@@ -562,37 +562,37 @@
       "motionTypes": [
         {
           "name": "Forearm pronation/supination",
-          "value": 1429
+          "value": 1000
         },
         {
           "name": "Wrist flexion/extension Eliminated gravity",
-          "value": 2837
+          "value": 2000
         },
         {
           "name": "Wrist radial/ulnar deviation",
-          "value": 4286
+          "value": 3000
         },
         {
           "name": "Finger flexion/extension",
-          "value": 2837
+          "value": 4000
         },
         {
           "name": "Wrist flexion/extension",
-          "value": 1429
+          "value": 5000
         }
       ],
       "missionTypes": [
         {
           "name": "ROM",
-          "value": 3333
+          "value": 4444
         },
         {
           "name": "Endurance",
-          "value": 1667
+          "value": 2678
         },
         {
           "name": "Agility & Coordination",
-          "value": 1230
+          "value": 1524
         }
       ],
       "evaluations": [
@@ -602,32 +602,32 @@
             {
               "max": 180,
               "text": "Forearm\n pronation/supination",
-              "value": 37.13
+              "value": 48.12
             },
             {
               "max": 160,
               "text": "Wrist\n flexion/extension",
-              "value": 73.27
+              "value": 25
             },
             {
               "max": 160,
               "text": "Wrist\n flexion/extension\n Eliminated gravity",
-              "value": 73.3
+              "value": 36.7
             },
             {
               "max": 80,
               "text": "Wrist\n radial/ulnar deviation",
-              "value": 24.73
+              "value": 88.2
             },
             {
               "max": 80,
               "text": "Wrist\n radial/ulnar deviation\n Eliminated gravity",
-              "value": 34.34
+              "value": 80
             },
             {
               "max": 100,
               "text": "Finger\n flexion/extension",
-              "value": 104.10
+              "value": 55.1
             }
           ]
         },
@@ -669,13 +669,13 @@
       ]
     },
     {
-      "patientFirstName": "Winifred",
-      "patientLastName": "Richard",
+      "patientFirstName": "철수",
+      "patientLastName": "이",
       "patientGender": "FeMale",
-      "patientBirthday": "1982.10.24",
-      "upperExtremityFunctionLt": "N",
-      "upperExtremityFunctionRt": "Y",
-      "dateOfOnsetMonth": "2016.03",
+      "patientBirthday": "1987.11.08",
+      "upperExtremityFunctionLt": "Y",
+      "upperExtremityFunctionRt": "N",
+      "dateOfOnsetMonth": "2013.12",
       "diagnosis": "",
       "playTimeList": [
         {

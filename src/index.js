@@ -19,6 +19,6 @@ patientList.getList( ()=>{
 		</Provider>
 		, appElement);
 
-	
+	ui.bindEvents();
 });
 

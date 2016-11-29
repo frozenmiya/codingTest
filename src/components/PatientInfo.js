@@ -11,7 +11,7 @@ class PatientInfo extends React.Component{
 	setData( _index ){
 		let patient = patientList.getPatients();
 		let firstP = patient[ _index ];
-		let fullName = firstP.firstName +' '+ firstP.lastName;
+		let fullName = firstP.lastName +' '+ firstP.firstName;
 		let upperExtremityFunction = ( firstP.upperExtremityFunctionLt == 'N' ) ? '오른쪽' : '왼쪽';
 		return {
 			lastName : firstP.lastName,
@@ -31,9 +31,9 @@ class PatientInfo extends React.Component{
 
 	componentWillReceiveProps( _nextProps ){
 		let patient = patientList.getPatients();
-		var index = _nextProps.currentIndex;
+		let index = _nextProps.currentIndex;
 		let firstP = patient[ index ];
-		let fullName = firstP.firstName +' '+ firstP.lastName;
+		let fullName = firstP.lastName +' '+ firstP.firstName;
 		let upperExtremityFunction = ( firstP.upperExtremityFunctionLt == 'N' ) ? '오른쪽' : '왼쪽';
 
 		this.setState({
@@ -49,7 +49,7 @@ class PatientInfo extends React.Component{
 
 	render(){
 		return(
-				<div className="row-col box" style={{height:'195px'}}>
+				<div className="row-col box" style={{ height:'195px' }}>
 					<Col sm={4} md={4}>
 						<div className="box-header">
 							<h3>환자 정보</h3>

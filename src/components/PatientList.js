@@ -9,16 +9,18 @@ class PatientList extends React.Component{
 	render(){
 		let patients = patientList.getPatients();
 		let list = [];
-		for( var i = 0, l = patients.length; i < l; i++ ){
-			let currentPatient = patients[i];
+
+		patients.map( ( _data, _index ) => {
+			let currentPatient = patients[ _index ];
 			let lastName = currentPatient.lastName;
-			let name = currentPatient.firstName +' '+ lastName;
+			let name = lastName +' '+ currentPatient.firstName;
 			let birth = currentPatient.birth;
-			list.push( <PatientListItem index={i} lastName={lastName} name={name} birth={birth} onShowData={this.props.onShowData}/> );
-		}
+			list.push( <PatientListItem key={ _index } lastName={ lastName } name={ name } birth={ birth } onShowData={ this.props.onShowData }/> );
+		} );
+
 		return(
 				<ListGroup className="no-radius no-borders light lt">
-					{list}
+					{ list }
 				</ListGroup>
 			);
 	}

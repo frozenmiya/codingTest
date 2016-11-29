@@ -8,8 +8,8 @@ class App extends React.Component {
         return (
             <div>
             	<LeftPanel 
-            	lastName={loginUser.lastName}
-            	name={loginUser.name}
+            	lastName={ loginUser.lastName }
+            	name={ loginUser.name }
             	/>
                 <Footer />
                 <ContentBody />

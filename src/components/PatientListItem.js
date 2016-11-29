@@ -1,17 +1,16 @@
 import React, { PropTypes } from 'react';
 import { ListGroupItem } from 'react-bootstrap';
-import { connect } from 'react-redux';
 
 const propsTypes = {
 	onShowData : PropTypes.func
 };
 
 function createWarning( _funcName ){
-	return () => console.log( _funcName + ' is not defined');
+	return () => console.log( _funcName + ' is not defined' );
 }
 
 const defaultProps = {
-	onShowData : createWarning('onShowData')
+	onShowData : createWarning( 'onShowData' )
 };
 
 class PatientListItem extends React.Component{
@@ -21,13 +20,13 @@ class PatientListItem extends React.Component{
 	}
 
 	onclick( _event ){
-		var index = $(_event.currentTarget).index();
+		var index = $( _event.currentTarget ).index();
 		this.props.onShowData( index );
 	}
 
 	render(){
 		return(
-			    <ListGroupItem href="#" onClick={this.onclick}>
+			    <ListGroupItem href="#" onClick={ this.onclick }>
 			    	<div className="list-left">
 	                    <span className="w-40 avatar blue-500"> { this.props.lastName } </span>
 	                  </div>
@@ -45,16 +44,4 @@ class PatientListItem extends React.Component{
 PatientListItem.propsTypes = propsTypes;
 PatientListItem.defaultProps = defaultProps;
 
-const mapStateToProps = ( _state ) => {
-	return {
-		index : _state.index
-	}
-}
-
-const mapDispatchToProps = ( _dispatch ) => {
-	return {
-		refreshData : ( _index ) => { _dispatch( actions.showData( _index ) ) }
-	}
-}
-
-export default connect( mapStateToProps, mapDispatchToProps )( PatientListItem );
+export default PatientListItem;
